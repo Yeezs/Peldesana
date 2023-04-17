@@ -1,0 +1,96 @@
+body {
+    margin : 0;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height : 75px;
+    background-color: rgb(10, 106, 191);
+    box-shadow: 5px;
+}
+h1 {
+    color : white;
+    margin-left : 140px;
+}
+nav {
+    display:flex;
+    align-items:center;
+    margin-right:100px;
+}
+a {
+    margin-right: 60px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+a:hover{
+    color:aqua;
+}
+img {
+    margin:0;
+}
+h2{
+    font-size: 70px;
+    color:white;
+}
+.t1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.t2{
+    position: absolute;
+    top: 160%;
+    left: 15%;
+}
+.t3{
+    position: absolute;
+    top: 280%;
+    left: 20%;
+}
+button{
+    background: none;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    padding: 12px 20px;
+    min-width: 200px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: rgb(189, 221, 245);
+    border: 2px solid #000;
+    color: #000;
+}
+
+.raksti{
+    width:1000px;
+    height:2000px;
+    background-color: aliceblue;
+    box-shadow: 10px #000;
+}
+.rakstvest{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(222, 235, 246);
+}
+h3{
+    font-size: 50px;
+}
+.virs{
+    text-align: center;
+}
+p{
+    margin-left:100px;
+    margin-right:100px;
+    font-size: 30px;
+}
+h4{
+    font-size:35px;
+    position: relative;
+    left:28%;
+}
+
