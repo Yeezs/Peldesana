@@ -154,3 +154,24 @@ h4{
         left:10%;
     }
 }
+@media (max-width:380px){
+    .t1{
+        position: absolute;
+        left:15%;
+        top:8%;
+    }
+    button{
+        padding: 6px 10px;
+        min-width: 100px;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:50%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:90%;
+    }
+}
