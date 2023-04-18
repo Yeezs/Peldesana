@@ -8,6 +8,7 @@ header {
     height : 75px;
     background-color: rgb(10, 106, 191);
     box-shadow: 5px;
+    width:auto;
 }
 h1 {
     color : white;
@@ -68,7 +69,7 @@ button:hover{
 
 .raksti{
     width:1000px;
-    height:2000px;
+    height:120%;
     background-color: aliceblue;
     box-shadow: 10px #000;
 }
@@ -94,3 +95,62 @@ h4{
     left:28%;
 }
 
+@media (max-width:426px) {
+    header{
+        width:100%;
+        height:50px;
+    }
+    h1{
+        margin-left:20px;
+        font-size:20px;
+    }
+    nav{
+        margin-right:20px;
+    }
+    a {
+        margin-right:10px;
+        font-size:15px;
+    }
+    h2{
+        font-size:28px;
+    }
+    .t1{
+        position: absolute;
+        left:15%;
+        top:7%;
+    }
+    button{
+        padding: 6px 10px;
+        min-width: 100px;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:40%;
+    }
+    .t3{
+        position: absolute;
+        left:5%;
+        top:70%;
+    }
+    .raksti{
+        width:100%;
+        height:120%;
+        background-color: rgb(195, 219, 239);
+    }
+    h3{
+        font-size:30px;
+        margin-left:5px;
+        margin-right: 5px;
+    }
+    p{
+        margin-left:15px;
+        margin-right:15px;
+        font-size: 20px;
+    }
+    h4{
+        font-size:25px;
+        position: relative;
+        left:10%;
+    }
+}
