@@ -95,6 +95,13 @@ h4{
     left:28%;
 }
 
+.abus{
+    width:1000px;
+    height:1000px;
+    background-color: aliceblue;
+    box-shadow: 10px #000;
+}
+
 @media (max-width:426px) {
     header{
         width:100%;
@@ -173,5 +180,179 @@ h4{
         position: absolute;
         left:10%;
         top:90%;
+    }
+}
+
+@media (max-width:1290px){
+    .t1{
+        position: absolute;
+        left:10%;
+        top:25%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:120%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:230%;
+    }
+}
+@media (max-width:1200px){
+    .t1{
+        position: absolute;
+        left:10%;
+        top:25%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:120%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:210%;
+    }
+}
+@media (max-width:1200px){
+    .t1{
+        position: absolute;
+        left:10%;
+        top:25%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:120%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:210%;
+    }
+}
+@media (max-width:1100px){
+    .t1{
+        position: absolute;
+        left:10%;
+        top:25%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:110%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:200%;
+    }
+}
+@media (max-width:1000px){
+    .t1{
+        position: absolute;
+        left:10%;
+        top:25%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:100%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:175%;
+    }
+}
+@media (max-width:900px){
+    .t1{
+        position: absolute;
+        left:10%;
+        top:20%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:82%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:160%;
+    }
+    header{
+        width:100%;
+    }
+    h1{
+        margin-left:40px;
+        font-size:30px;
+    }
+    nav{
+        margin-right:40px;
+    }
+    a {
+        margin-right:30px;
+        font-size:25px;
+    }
+}
+@media (max-width:800px){
+    .t1{
+        position: absolute;
+        left:10%;
+        top:16%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:80%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:140%;
+    }
+}
+@media (max-width:700px){
+    h2{
+        font-size:50px;
+    }
+    .t1{
+        position: absolute;
+        left:10%;
+        top:12%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:75%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:130%;
+    }
+}
+@media (max-width:700px){
+    h2{
+        font-size:50px;
+    }
+    .t1{
+        position: absolute;
+        left:10%;
+        top:12%;
+    }
+    .t2{
+        position: absolute;
+        left:10%;
+        top:65%;
+    }
+    .t3{
+        position: absolute;
+        left:10%;
+        top:110%;
     }
 }
