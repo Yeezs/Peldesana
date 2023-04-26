@@ -36,21 +36,32 @@ img {
 h2{
     font-size: 70px;
     color:#00156d;
+    
 }
-.t1 {
-    position: absolute;
-    top: 40%;
-    left: 20%;
+section{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-.t2{
-    position: absolute;
-    top: 160%;
-    left: 15%;
+.ves {
+    background-image: url(gentrit-sylejmani-JjUyjE-oEbM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:1200px;
 }
-.t3{
-    position: absolute;
-    top: 280%;
-    left: 20%;
+.bobro{
+    background-image: url(Daņilka.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:1200px;
+}
+.hys{
+    background-image: url(johanna-steppan-67QUR7MCq0M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:1200px;
 }
 button{
     background: none;
@@ -91,8 +102,7 @@ p{
 }
 h4{
     font-size:35px;
-    position: relative;
-    left:28%;
+    margin-left:260px;
 }
 
 .abus{
@@ -101,12 +111,24 @@ h4{
     background-color: aliceblue;
     box-shadow: 10px #000;
 }
-
-img{
-    display: block;
+.t1{
+    margin-left:200px;
+    margin-right:200px;
+}
+.t2{
+    margin-left:200px;
+    margin-right:200px;
+}
+.t3{
+    margin-left:200px;
+    margin-right:200px;
 }
 
-@media (max-width:426px) {
+h5{
+    font-size:30px;
+}
+
+@media (max-width:500px) {
     header{
         width:100%;
         height:50px;
@@ -125,24 +147,9 @@ img{
     h2{
         font-size:28px;
     }
-    .t1{
-        position: absolute;
-        left:15%;
-        top:7%;
-    }
     button{
         padding: 6px 10px;
         min-width: 100px;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:40%;
-    }
-    .t3{
-        position: absolute;
-        left:5%;
-        top:70%;
     }
     .raksti{
         width:100%;
@@ -161,202 +168,116 @@ img{
     }
     h4{
         font-size:25px;
-        position: relative;
-        left:10%;
+        margin-left:30px;
+    }
+    .ves {
+        background-size: 100% 30%;
+    }
+    .bobro{
+        background-size: 100% 30%;
+        background-repeat: no-repeat;
+    }
+    .hys{
+        background-size: 100% 30%;
     }
 }
 @media (max-width:380px){
-    .t1{
-        position: absolute;
-        left:15%;
-        top:8%;
-    }
     button{
         padding: 6px 10px;
         min-width: 100px;
     }
+}
+@media(max-width:1700px){
+    .ves{
+        height:1000px;
+    }
+    .bobro{
+        height:1000px;
+    }
+    .hys{
+        height:1000px;
+    }
+}
+@media(max-width:1500px){
+    .ves{
+        height:900px;
+    }
+    .bobro{
+        height:900px;
+    }
+    .hys{
+        height:900px;
+    }
+}
+@media(max-width:1300px){
+    .ves{
+        height:800px;
+    }
+    .bobro{
+        height:800px;
+    }
+    .hys{
+        height:800px;
+    }
+}
+@media(max-width:1100px){
+    .ves{
+        height:700px;
+    }
+    .bobro{
+        height:700px;
+    }
+    .hys{
+        height:700px;
+    }
+}
+@media(max-width:900px){
+    .ves{
+        height:600px;
+    }
+    .bobro{
+        height:600px;
+    }
+    .hys{
+        height:600px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    nav{
+        margin-right:20px;
+    }
+    h1{
+        margin-left:50px;
+    }
+    a{
+        margin-right:30px;
+    }
+}
+@media(max-width:700px){
+    .ves{
+        height:450px;
+    }
+    .bobro{
+        height:450px;
+    }
+    .hys{
+        height:450px;
+    }
+    h4{
+        margin-left:120px;
+    }
+    .t1{
+        margin-left:100px;
+        margin-right:100px;
+    }
     .t2{
-        position: absolute;
-        left:10%;
-        top:50%;
+        margin-left:100px;
+        margin-right:100px;
     }
     .t3{
-        position: absolute;
-        left:10%;
-        top:90%;
+        margin-left:100px;
+        margin-right:100px;
     }
 }
 
-@media (max-width:1290px){
-    .t1{
-        position: absolute;
-        left:10%;
-        top:25%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:120%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:230%;
-    }
-}
-@media (max-width:1200px){
-    .t1{
-        position: absolute;
-        left:10%;
-        top:25%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:120%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:210%;
-    }
-}
-@media (max-width:1200px){
-    .t1{
-        position: absolute;
-        left:10%;
-        top:25%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:120%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:210%;
-    }
-}
-@media (max-width:1100px){
-    .t1{
-        position: absolute;
-        left:10%;
-        top:25%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:110%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:200%;
-    }
-}
-@media (max-width:1000px){
-    .t1{
-        position: absolute;
-        left:10%;
-        top:25%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:100%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:175%;
-    }
-}
-@media (max-width:900px){
-    .t1{
-        position: absolute;
-        left:10%;
-        top:20%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:82%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:160%;
-    }
-    header{
-        width:100%;
-    }
-    h1{
-        margin-left:40px;
-        font-size:30px;
-    }
-    nav{
-        margin-right:40px;
-    }
-    a {
-        margin-right:30px;
-        font-size:25px;
-    }
-}
-@media (max-width:800px){
-    .t1{
-        position: absolute;
-        left:10%;
-        top:16%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:80%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:140%;
-    }
-}
-@media (max-width:700px){
-    h2{
-        font-size:50px;
-    }
-    .t1{
-        position: absolute;
-        left:10%;
-        top:12%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:75%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:130%;
-    }
-}
-@media (max-width:700px){
-    h2{
-        font-size:50px;
-    }
-    .t1{
-        position: absolute;
-        left:10%;
-        top:12%;
-    }
-    .t2{
-        position: absolute;
-        left:10%;
-        top:65%;
-    }
-    .t3{
-        position: absolute;
-        left:10%;
-        top:110%;
-    }
-}
